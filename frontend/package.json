@@ -1,8 +1,7 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cp public/*.html dist/ 2>/dev/null || cp *.html dist/"
+    "build": "mkdir -p dist && cp -r public/* dist/"
   }
 }
