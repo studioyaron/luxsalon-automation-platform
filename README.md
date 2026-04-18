@@ -1,0 +1,1 @@
+# luxsalon-automation-platform
