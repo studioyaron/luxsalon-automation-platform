@@ -36,7 +36,7 @@ const skills = [
   'תחזיות עומסים ותכנון משמרות'
 ];
 
-const defaultWhatsappNumber = '972500000000';
+const defaultWhatsAppNumber = '972500000000';
 
 export default function HomePage() {
   return (
@@ -56,7 +56,7 @@ export default function HomePage() {
           <p className="subtitle">
             מערכת אוטומציה מלאה לסלוני יופי עם חוויית לקוח יוקרתית, תפעול מהיר ושיווק מדויק.
           </p>
-          <a className="whatsapp" href={`https://wa.me/${defaultWhatsappNumber}`} target="_blank" rel="noreferrer">
+          <a className="whatsapp" href={`https://wa.me/${defaultWhatsAppNumber}`} target="_blank" rel="noreferrer">
             שלחו לנו הודעה ב-WhatsApp
           </a>
         </section>
@@ -72,7 +72,7 @@ export default function HomePage() {
 
         <footer className="footer">
           <p>
-            מצב אינטגרציית Meta/Facebook: פעיל עם placeholder בלבד וללא תלות במפתחות אמיתיים בשלב זה.
+            מצב אינטגרציה מול Meta/Facebook: פעיל עם placeholder בלבד וללא תלות במפתחות אמיתיים בשלב זה.
           </p>
         </footer>
       </main>
