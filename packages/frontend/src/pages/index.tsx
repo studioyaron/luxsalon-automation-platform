@@ -27,9 +27,9 @@ export default function HomePage(): JSX.Element {
       dir="rtl"
     >
       <header style={{ maxWidth: 900, margin: '0 auto 24px auto' }}>
-        <h1 style={{ margin: 0, fontSize: '2rem' }}>ברוכים הבאים לפלטפורמת LuxSalon</h1>
+        <h1 style={{ margin: 0, fontSize: '2rem' }}>ברוכים הבאים לפלטפורמה של LuxSalon</h1>
         <p style={{ marginTop: 12, fontSize: '1.1rem' }}>
-          התחילו כאן: כך תכירו במהירות את חמש היכולות הראשונות של המערכת.
+          התחילו כאן כדי להכיר במהירות את חמש היכולות הראשונות של המערכת.
         </p>
       </header>
 
