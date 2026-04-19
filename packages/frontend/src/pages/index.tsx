@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+const whatsAppContactNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '972541234567';
+
 const skills = [
   'ניהול יומן תורים חכם',
   'תזכורות אוטומטיות ב-WhatsApp',
@@ -54,7 +56,7 @@ export default function HomePage() {
           <p className="subtitle">
             מערכת אוטומציה מלאה לסלוני יופי עם חוויית לקוח יוקרתית, תפעול מהיר ושיווק מדויק.
           </p>
-          <a className="whatsapp" href="https://wa.me/972500000000" target="_blank" rel="noreferrer">
+          <a className="whatsapp" href={`https://wa.me/${whatsAppContactNumber}`} target="_blank" rel="noreferrer">
             שלחו לנו הודעה ב-WhatsApp
           </a>
         </section>
