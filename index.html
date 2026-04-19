@@ -1,20 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale and does not have any real content or required structure for a website!
-- **Sidebar:** Shows the current folder structure:
-  - `frontend/` (with `public/`, `src/`, `package.json`)
-  - `packages/backend/prisma/`
-  - `README.md`, `index.html` (at root)
-
-- **GitHub UI:** You are in "Edit" mode for the file.
-
----
-
-## Important notice
-
-- The main index.html for your frontend needs to be in:=1.0"/>
   <title>Luxsalon Automation Platform</title>
   <style>
     body {
@@ -30,15 +16,15 @@
       background: #fff;
       margin: 0 auto;
       padding: 30px 40px;
-      border-radius: 18  
-  **`/frontend/public/index.html`**  
-  (not in the root of your repository).
-
-- The root-level `index.html` file you edited is not used by your Vercel deployment as currently configured!
-
-- Also, the content of this HTML file is insufficient for any web framework or static site generator to build a real site (it should have real HTML content, possibly link a main.js or similar).
-
----
-
-**Summary:**  
-Your main web app's index.html must be inside `frontend/public/index.html` and contain real HTML (including `<head>`, `<body>`, app content etc). The current root `index.html` does not affect your Vercel build, which explains why deployment fails to produce a working site.
+      border-radius: 18px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Welcome to Luxsalon</h1>
+    <p>Your automation platform</p>
+  </div>
+</body>
+</html>
