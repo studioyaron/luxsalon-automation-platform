@@ -36,8 +36,6 @@ const skills = [
   'תחזיות עומסים ותכנון משמרות'
 ];
 
-const placeholderWhatsAppNumber = '972500000000';
-
 export default function HomePage() {
   return (
     <>
@@ -56,7 +54,7 @@ export default function HomePage() {
           <p className="subtitle">
             מערכת אוטומציה מלאה לסלוני יופי עם חוויית לקוח יוקרתית, תפעול מהיר ושיווק מדויק.
           </p>
-          <a className="whatsapp" href={`https://wa.me/${placeholderWhatsAppNumber}`} target="_blank" rel="noreferrer">
+          <a className="whatsapp" href="https://wa.me/972500000000" target="_blank" rel="noreferrer">
             שלחו לנו הודעה ב-WhatsApp
           </a>
         </section>
